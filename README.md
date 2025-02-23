@@ -29,3 +29,8 @@ git clone git@github.com:adexeHernandez/LMSGI-Actividad_02.git
 
 - **HTML5**
 - **CSS3**
+
+## Autor:
+
+- **Adexe Hernandez**
+[https://github.com/adexeHernandez/](https://github.com/adexeHernandez/)
