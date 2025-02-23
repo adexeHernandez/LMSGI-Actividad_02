@@ -24,6 +24,8 @@ Para clonar el proyecto, usa el siguiente comando:
 ```bash
 git clone git@github.com:adexeHernandez/LMSGI-Actividad_02.git
 ```
-Tecnologías utilizadas
-    HTML5
-    CSS3
+
+## Tecnologías utilizadas:
+
+- **HTML5**
+- **CSS3**
