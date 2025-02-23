@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+/*Fuente personalizada*/
+@font-face {
+    font-family:"BreakingBad";
+    src: url('../fonts/bBad.ttf');
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Index */
+.bodyIndex {
+    min-height: 100vh;
+    display: grid; 
+    justify-items: center;
+    align-content: start;  
+    gap: 10px;            
+    color: white;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "BreakingBad";
+    font-size: 35px;
+}
+
+#logo {
+    background-image: url('../img/logo.PNG');
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+}
+
+#poster {
+    width: 700px;
+    height: 300px;
+    border: brown 10px outset;
+    border-radius: 22px;
+}
+/*Formulario */
+.bodyForm {
+    min-height: 100vh;
+    display: grid; 
+    place-items: center;
+    color: white;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+}
+
+.formExt {
+    background-color: rgba(79, 146, 34, 0.199);
+}
+
+.formInt {
+    background-color: rgba(58, 163, 9, 0.205);
+}
+
+#archivo {
+    display: block;
+    margin: auto;
+}
+
+.button {
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+input {
+    padding: 0 3rem;
+}
+
+.form-entry {
+    margin: 0.5rem 0;
+}
+
+.form-entry > * {
+    display: block;
+    width: 100%;      
+    margin-bottom: 2rem; 
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 1rem; 
+}
+
+input,
+textarea,
+select {
+    padding: 1rem;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+/*Tabla Periodica*/
+#bodyTabla {
+    background-color: #0c3e11;
+    background-image: url('../img/cabecera.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    place-items: center;
+    font-family: Helvetica, sans-serif;
+}
+
+#top-table {
+    table-layout: fixed;
+    border-spacing: 10px;
+    background-color: #34352F;
+    margin-top: 30%;
+    text-align: center;
+}
+
+#base-table {
+    table-layout: fixed;
+    border-spacing: 10px;
+    background-color: #34352F;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.font-xl {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.font-xs {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+td {
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+td:empty {
+    background-color: transparent;
+    border: 1px transparent;
+}
+
+/*Colores Tabla*/
+.green1 {
+    background-color: #B7DC1E;
+}
+
+.green2 {
+    background-color: #D5E977;
+}
+
+.green3 {
+    background-color: #89A418;
+}
+
+.green4 {
+    background-color: #637124;
+}
+
+.green5 {
+    background-color: #C3E349;
+}
+
+.green6 {
+    background-color: #BCC4A0;
+}
+
+.green7 {
+    background-color: #818D4F;
+}
+
+.ivory {
+    background-color: #EFF6CA;
+}
+
+#Ha {
+    background-image: url('../img/tabla_periodica/hankschrader.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;    
+    margin: 0;
+    padding: 0;
+}
+
+#Ma {
+    background-color: #AB8FCD;
+}
+
+/*Tabla inferior*/
+.green8 {
+    background-color: #C3C628;
+}
+
+#bus {
+    background-image: url('../img/tabla_periodica/bus.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C3C628;
+    background-size: 90%;
+}
+
+#gun {
+    background-image: url('../img/tabla_periodica/pistola.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C3C628;
+
+}
+
+#chemical {
+    background-image: url('../img/tabla_periodica/pocima.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C3C628;
+}
+
+#phone {
+    background-image: url('../img/tabla_periodica/movil.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C3C628;
+}
+
+#fly {
+    background-image: url('../img/tabla_periodica/mosca.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C3C628;
+}
+
+#meth {
+    background-image: url('../img/tabla_periodica/cristal.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C3C628;
+}
+
+#pizza {
+    background-image: url('../img/tabla_periodica/pizza.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C3C628;
+}
+
+#underwear {
+    background-image: url('../img/tabla_periodica/calzoncillos.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C3C628;
+}
+
+#mask {
+    background-image: url('../img/tabla_periodica/mascara.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C3C628;
+}
+
+#plate {
+    background-image: url('../img/tabla_periodica/plato.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C3C628;
+    background-size: 95%;
+}
